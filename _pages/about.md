@@ -15,7 +15,7 @@ My current research interests include real estate economics and finance.
 
 Contact
 ======
-Email: [tzhou@business.fsu.edu](mailto:tzhou@business.fsu.edu)
+Email: [tzhou@wertheim.fsu.edu](mailto:tzhou@wertheim.fsu.edu)
 
 Elsewhere
 ======

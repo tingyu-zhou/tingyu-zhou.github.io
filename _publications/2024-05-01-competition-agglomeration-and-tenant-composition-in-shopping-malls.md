@@ -6,6 +6,7 @@ permalink: /publication/2024-05-01-competition-agglomeration-and-tenant-composit
 date: 2024-05-01
 venue: 'Real Estate Economics'
 paperurl: 'https://onlinelibrary.wiley.com/doi/10.1111/1540-6229.12442'
+ssrnurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4689384'
 citation: 'Tingyu Zhou (with David Leung and Peng Liu). (2024). &quot;Competition, Agglomeration, and Tenant Composition in Shopping Malls.&quot; <i>Real Estate Economics</i>. 52(2), 552-576.'
 ---
 

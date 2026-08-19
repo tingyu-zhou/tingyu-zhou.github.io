@@ -6,6 +6,7 @@ permalink: /publication/2014-12-01-expansions-and-contractions-of-major-us-shopp
 date: 2014-12-01
 venue: 'Journal of Real Estate Finance and Economics'
 paperurl: 'https://link.springer.com/article/10.1007/s11146-012-9382-z'
+ssrnurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2362455'
 citation: 'Tingyu Zhou (with John Clapp and Katsiaryna Salavei Bardos). (2014). &quot;Expansions and Contractions of Major US Shopping Centers.&quot; <i>Journal of Real Estate Finance and Economics</i>. 48, 16-56.'
 ---
 

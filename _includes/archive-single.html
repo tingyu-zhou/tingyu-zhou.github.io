@@ -27,8 +27,8 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.collection == 'publications' and post.paperurl %}
-        <a href="{{ post.paperurl }}">{{ title }}</a>
+      {% if post.collection == 'publications' %}
+        {{ title }}
       {% elsif post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
@@ -59,14 +59,7 @@
     {% assign show_citation = true %}
     {% if post.collection == 'publications' %}{% assign show_citation = false %}{% endif %}
 
-    {% comment %}
-      A publication title already links to the paper, so repeating it as a
-      "Download Paper" line adds nothing. Slides and bibtex still show.
-    {% endcomment %}
-    {% assign show_paper_link = true %}
-    {% if post.collection == 'publications' and post.paperurl %}{% assign show_paper_link = false %}{% endif %}
-
-    {% capture downloads %}{% if post.paperurl and show_paper_link %}<a href="{{ post.paperurl }}">Download Paper</a>{% endif %}{% if post.slidesurl %}{% if post.paperurl and show_paper_link %} | {% endif %}<a href="{{ post.slidesurl }}">Download Slides</a>{% endif %}{% if post.bibtexurl %}{% if post.slidesurl or post.paperurl and show_paper_link %} | {% endif %}<a href="{{ post.bibtexurl }}">Download Bibtex</a>{% endif %}{% endcapture %}
+    {% capture downloads %}{% if post.collection == 'publications' %}{% if post.paperurl %}<a href="{{ post.paperurl }}">Published version</a>{% endif %}{% if post.ssrnurl %}{% if post.paperurl %} | {% endif %}<a href="{{ post.ssrnurl }}">SSRN</a>{% endif %}{% else %}{% if post.paperurl %}<a href="{{ post.paperurl }}">Download Paper</a>{% endif %}{% if post.slidesurl %}{% if post.paperurl %} | {% endif %}<a href="{{ post.slidesurl }}">Download Slides</a>{% endif %}{% if post.bibtexurl %}{% if post.paperurl or post.slidesurl %} | {% endif %}<a href="{{ post.bibtexurl }}">Download Bibtex</a>{% endif %}{% endif %}{% endcapture %}
     {% assign downloads = downloads | strip %}
 
     {% if post.citation and show_citation and downloads != "" %}

@@ -22,7 +22,7 @@ Research, Regional Science and Urban Economics, Journal of Regional Science, Jou
 Economics, Management Science, Journal of Behavioral and Experimental Finance, Journal of
 Corporate Finance, Journal of Economic Geography, Journal of Real Estate Portfolio Management,
 International Real Estate Review, Cities, Financial Research Letters, North American Journal of
-Economics and Finance, Contemporary Economic Policy, Empirical Economics, Economic Inquiry,
+Economics and Finance, Contemporary Economic Policy, Empirical Economics (EMEC), Economic Inquiry,
 PLOS One, The Review of Regional Studies, The Financial Review
 
 Ad hoc External Reviewer / Program Committee

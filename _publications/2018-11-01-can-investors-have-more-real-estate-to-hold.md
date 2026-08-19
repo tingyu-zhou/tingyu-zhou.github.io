@@ -6,6 +6,6 @@ permalink: /publication/2018-11-01-can-investors-have-more-real-estate-to-hold
 date: 2018-11-01
 venue: 'Journal of Real Estate Finance and Economics'
 paperurl: 'https://www.springerprofessional.de/can-investors-hold-more-real-estate-evidence-from-statistical-pr/12062242'
-citation: 'Tingyu Zhou (with John Glascock, Wikrom Prombutr and Ying Zhang). (2018). &quot;Can Investors Have More Real Estate to Hold? Evidence from Statistical Properties of Listed REITs versus Listed Non-REIT Property Companies in the USA.&quot; <i>Journal of Real Estate Finance and Economics</i>. 56, 274-302.'
+citation: 'Tingyu Zhou (with John Glascock, Wikrom Prombutr, Ying Zhang). (2018). &quot;Can Investors Have More Real Estate to Hold? Evidence from Statistical Properties of Listed REITs versus Listed Non-REIT Property Companies in the USA.&quot; <i>Journal of Real Estate Finance and Economics</i>. 56, 274-302.'
 ---
 

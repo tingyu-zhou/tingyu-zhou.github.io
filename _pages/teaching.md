@@ -16,8 +16,8 @@ Concordia University
 ======
 Department of Finance
 
-* FINA 450 Real Estate Investment and Finance (undergraduate)
-* MSCA 632 Special Topics in Finance: Real Estate (MSc in Finance)
+* FINA 450 Real Estate Investment and Finance (undergraduates)
+* MSCA 632 Special Topics in Finance: Real Estate (master of science in finance)
 
 University of Connecticut
 ======

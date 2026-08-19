@@ -1,0 +1,20 @@
+# Order of the links in the site header.
+
+main:
+  - title: "Working Papers"
+    url: /working-papers/
+
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "Presentations"
+    url: /presentations/
+
+  - title: "Service"
+    url: /service/
+
+  - title: "Awards & Grants"
+    url: /awards-grants/

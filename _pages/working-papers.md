@@ -13,6 +13,4 @@ author_profile: true
 
 * ["The Death of Retail and Neighborhood Amenities"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4706738) (with Steve Billings and Shawn Rohlin)
 
-* ["Gender Differences in Multitasking: Evidence from the Real Estate Brokerage Industry"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4234740) (with Guangzhi Shang and Yanting Wu)
-
 * ["Controlling Unobserved Heterogeneity in Repeat Sales Models: Application to Anchoring to Purchase Price"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3358401) (with John Clapp)

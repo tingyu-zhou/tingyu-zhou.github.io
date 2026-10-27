@@ -9,8 +9,6 @@ author_profile: true
 
 * ["Climate Risk and Commercial Property Insurance"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5841862) (with Stephen Buschbom, Evan Eastman and Chongyu Wang)
 
-* ["Are Mass Shootings a Risk Factor? Evidence from Commercial Property Markets"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5540498) (with Chongyu Wang and Ke Xu)
-
 * ["Commercial Mortgage Debt Overhang and Intent to Default"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5256036) (with Daniel Broxterman, Mariya Letdin and Chongyu Wang)
 
 * ["Agency Cost of Choosing Green"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5200511) (with Mariya Letdin, Cayman Seagraves and Chongyu Wang)

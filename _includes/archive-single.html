@@ -40,12 +40,17 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
+    {% assign publication_coauthors = '' %}
+    {% if post.collection == 'publications' and post.citation contains '(with ' %}
+      {% assign publication_coauthors = post.citation | split: '(with ' | last | split: ')' | first %}
+    {% endif %}
+
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' and post.accepted %}
-          <p>Accepted, <i>{{ post.venue }}</i> {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p>{% if publication_coauthors != '' %}(with {{ publication_coauthors | escape }}) {% endif %}Accepted, <i>{{ post.venue }}</i> {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p>{% if publication_coauthors != '' %}(with {{ publication_coauthors | escape }}) {% endif %}<i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}

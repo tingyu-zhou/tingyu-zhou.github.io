@@ -7,6 +7,6 @@ date: 2026-01-01
 venue: 'Real Estate Economics'
 paperurl: 'https://onlinelibrary.wiley.com/doi/10.1111/1540-6229.70022'
 ssrnurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5044183'
-citation: 'Tingyu Zhou (with Chongyu Wang and Kelvin Wong). &quot;The Rise of Healthy Buildings in the Post-COVID-19 Pandemic Era.&quot; <i>Real Estate Economics</i>. Forthcoming.'
+citation: 'Tingyu Zhou (with Chongyu Wang and Siu Kei Wong). &quot;The Rise of Healthy Buildings in the Post-COVID-19 Pandemic Era.&quot; <i>Real Estate Economics</i>. Forthcoming.'
 ---
 
